@@ -31,6 +31,6 @@ A simple RESTful CRUD API built with **FastAPI** and **SQLModel** that allows us
 git clone https://github.com/yourusername/fastapi-notes-crud.git
 cd fastapi-notes-crud
 pip install -r requirements.txt
-uvicorn main:app --reload
+uvicorn app.main:app --reload
 ```
 API will be available at http://127.0.0.1:8000/docs after running it in the terminal
